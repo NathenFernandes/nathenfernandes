@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Nathen</h1>
-<h3 align="center">A passionate frontend developer from Western University</h3>
+<h3 align="center">A passionate developer from Western University</h3>
 
 - 🔭 I’m currently working on <a href="https://profai.io" target="_blank">profAI</a>
 
