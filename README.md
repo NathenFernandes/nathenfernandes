@@ -3,10 +3,14 @@
 
 - 📦 I’m currently working at [Boardy](https://www.boardy.ai/)
 
-- Prev @ [ProfAI](https://profai.io/)
 
 - 💬 Ask me about **Boardy**
 
 - 📫 How to reach me **nathan@boardy.ai**
+
+Previous Projects:
+[ProfAI](https://profai.io/)
+[Truechamp] (https://www.truechamp.io/)
+
 
 </p>
