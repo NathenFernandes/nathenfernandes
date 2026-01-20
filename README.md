@@ -9,8 +9,9 @@
 - 📫 How to reach me **nathan@boardy.ai**
 
 Previous Projects:
-[ProfAI](https://profai.io/)
-[Truechamp] (https://www.truechamp.io/)
+- [ProfAI](https://profai.io/)
+  
+- [Truechamp] (https://truechamp.io/)
 
 
 </p>
