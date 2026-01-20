@@ -11,7 +11,7 @@
 Previous Projects:
 - [ProfAI](https://profai.io/)
   
-- [Truechamp] (https://truechamp.io/)
+- [TrueChamp](https://truechamp.io/)
 
 
 </p>
