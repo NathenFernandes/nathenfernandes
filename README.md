@@ -1,12 +1,6 @@
 <h1 align="center">Hey, I'm Nathen 👋</h1>
 <h3 align="center">Software Engineer building AI products in Toronto</h3>
 
-<p align="center">
-  <a href="https://www.boardy.ai/">Boardy</a> • 
-  <a href="https://profai.io/">ProfAI</a> • 
-  <a href="https://truechamp.io/">TrueChamp</a>
-</p>
-
 ---
 
 ### About Me
