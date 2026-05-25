@@ -1,17 +1,32 @@
-<h1 align="center">Hi 👋, I'm Nathen</h1>
-<h3 align="center">A passionate software engineer from Toronto</h3>
+<h1 align="center">Hey, I'm Nathen 👋</h1>
+<h3 align="center">Software Engineer building AI products in Toronto</h3>
 
-- 📦 I’m currently working at [Boardy](https://www.boardy.ai/)
-
-
-- 💬 Ask me about **Boardy**
-
-- 📫 How to reach me **nathan@boardy.ai**
-
-Previous Projects:
-- [ProfAI](https://profai.io/)
-  
-- [TrueChamp](https://truechamp.io/)
-
-
+<p align="center">
+  <a href="https://www.boardy.ai/">Boardy</a> • 
+  <a href="https://profai.io/">ProfAI</a> • 
+  <a href="https://truechamp.io/">TrueChamp</a>
 </p>
+
+---
+
+### About Me
+
+I'm a software engineer based in Toronto, currently working at [Boardy](https://www.boardy.ai/), where we're building an AI superconnector that helps people make meaningful introductions through deep conversational context.
+
+I like building practical AI products, full-stack systems, and tools that feel genuinely useful instead of just technically impressive.
+
+---
+
+### Currently
+
+- 📦 Working at [Boardy](https://www.boardy.ai/)
+- 🧠 Building with AI agents, full-stack systems, and product-focused engineering
+- 💬 Ask me about **Boardy**, AI products, or startup engineering
+- 📫 Reach me at **nathen@boardy.ai**
+
+---
+
+### Previous Projects
+
+- [ProfAI](https://profai.io/) — AI-powered lecture generation from slides
+- [TrueChamp](https://truechamp.io/) — Challenge and streak-based social app
