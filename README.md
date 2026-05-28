@@ -7,8 +7,6 @@
 
 I'm a software engineer at [Boardy](https://www.boardy.ai/), where we're building an AI superconnector that helps people make meaningful introductions through deep conversational context.
 
-I like building practical AI products, full-stack systems, and tools that feel genuinely useful instead of just technically impressive.
-
 ---
 
 ### Currently
