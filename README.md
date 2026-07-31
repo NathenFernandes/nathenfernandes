@@ -1,5 +1,5 @@
 <h1 align="center">Hey, I'm Nathen 👋</h1>
-<h3 align="center">Software Engineer building AI products in Toronto</h3>
+<h3 align="center">Software Engineer building in Toronto</h3>
 
 ---
 
