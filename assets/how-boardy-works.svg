@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="How Boardy works: you tell Boardy who you need, Boardy searches its network, then Boardy introduces you to the right person.">
+  <style>
+    .sans { font-family: 'Bricolage Grotesque', -apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+    .draw { stroke-dasharray: 1; }
+    .ask { animation: ask 12s cubic-bezier(0.77, 0, 0.175, 1) infinite; }
+    .msg { animation: msg 12s cubic-bezier(0.77, 0, 0.175, 1) infinite; }
+    .scan { opacity: 0; animation: scan 12s ease-out infinite; }
+    .scan:nth-of-type(2) { animation-delay: 0.3s; }
+    .scan:nth-of-type(3) { animation-delay: 0.6s; }
+    .scan:nth-of-type(4) { animation-delay: 0.9s; }
+    .scan:nth-of-type(5) { animation-delay: 1.2s; }
+    .scan:nth-of-type(6) { animation-delay: 1.5s; }
+    .scan:nth-of-type(7) { animation-delay: 1.8s; }
+    .match { animation: match 12s cubic-bezier(0.77, 0, 0.175, 1) infinite; }
+    .seed { animation: seed 12s linear infinite; }
+    .found { transform-box: fill-box; transform-origin: center; animation: found 12s cubic-bezier(0.34, 1.56, 0.64, 1) infinite; }
+    .intro { animation: intro 12s cubic-bezier(0.77, 0, 0.175, 1) infinite; }
+    .eye { transform-box: fill-box; transform-origin: center; animation: blink 4.8s infinite; }
+    .think { transform-box: fill-box; transform-origin: center; animation: think 12s ease-in-out infinite; }
+    .step1 { animation: step1 12s linear infinite; }
+    .step2 { animation: step2 12s linear infinite; }
+    .step3 { animation: step3 12s linear infinite; }
+
+    @keyframes ask { 0%, 3% { stroke-dashoffset: 1; opacity: 1; } 16%, 94% { stroke-dashoffset: 0; opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 0; } }
+    @keyframes msg { 0%, 3% { transform: translateX(0); opacity: 0; } 5% { opacity: 1; } 16% { transform: translateX(248px); opacity: 1; } 18%, 100% { transform: translateX(248px); opacity: 0; } }
+    @keyframes scan { 0%, 19% { opacity: 0; } 24% { opacity: 0.9; } 34%, 100% { opacity: 0; } }
+    @keyframes think { 0%, 18%, 50%, 100% { transform: scale(1); } 26%, 42% { transform: scale(1.04); } 34% { transform: scale(0.98); } }
+    @keyframes match { 0%, 52% { stroke-dashoffset: 1; opacity: 1; } 64%, 94% { stroke-dashoffset: 0; opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 0; } }
+    @keyframes seed { 0%, 63% { opacity: 1; } 65%, 100% { opacity: 0; } }
+    @keyframes found { 0%, 63% { transform: scale(0.3); opacity: 0; } 70%, 94% { transform: scale(1); opacity: 1; } 100% { transform: scale(1); opacity: 0; } }
+    @keyframes intro { 0%, 72% { stroke-dashoffset: 1; opacity: 1; } 86%, 94% { stroke-dashoffset: 0; opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 0; } }
+    @keyframes blink { 0%, 90%, 96%, 100% { transform: scaleY(1); } 93% { transform: scaleY(0.1); } }
+    @keyframes step1 { 0%, 19% { opacity: 1; } 21%, 100% { opacity: 0.35; } }
+    @keyframes step2 { 0%, 19% { opacity: 0.35; } 21%, 51% { opacity: 1; } 53%, 100% { opacity: 0.35; } }
+    @keyframes step3 { 0%, 51% { opacity: 0.35; } 53%, 96% { opacity: 1; } 100% { opacity: 0.35; } }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .draw { stroke-dashoffset: 0; }
+      .seed, .msg { opacity: 0; }
+    }
+  </style>
+
+  <defs>
+    <pattern id="corrugation" width="7" height="10" patternUnits="userSpaceOnUse">
+      <rect width="1.4" height="10" fill="#7a4d22" opacity="0.09"/>
+    </pattern>
+  </defs>
+
+  <rect x="1" y="1" width="998" height="298" rx="28" fill="#f5f2eb" stroke="#e6dfd1" stroke-width="2"/>
+
+  <path class="draw intro" pathLength="1" d="M150 98 Q505 -18 860 102" fill="none" stroke="#34c759" stroke-width="3" stroke-linecap="round"/>
+
+  <path class="draw ask" pathLength="1" d="M186 140 L446 140" fill="none" stroke="#1a1715" stroke-width="3" stroke-linecap="round"/>
+  <circle class="msg" cx="196" cy="140" r="7" fill="#34c759"/>
+
+  <g stroke="#b9b0a1" stroke-width="1.5">
+    <line class="scan" x1="556" y1="140" x2="700" y2="74"/>
+    <line class="scan" x1="556" y1="140" x2="688" y2="176"/>
+    <line class="scan" x1="556" y1="140" x2="790" y2="92"/>
+    <line class="scan" x1="556" y1="140" x2="760" y2="214"/>
+    <line class="scan" x1="556" y1="140" x2="928" y2="84"/>
+    <line class="scan" x1="556" y1="140" x2="900" y2="214"/>
+    <line class="scan" x1="556" y1="140" x2="860" y2="140"/>
+  </g>
+
+  <path class="draw match" pathLength="1" d="M556 140 L832 140" fill="none" stroke="#34c759" stroke-width="4" stroke-linecap="round"/>
+
+  <g fill="#d8d0c1">
+    <circle cx="700" cy="74" r="8"/>
+    <circle cx="688" cy="176" r="8"/>
+    <circle cx="790" cy="92" r="8"/>
+    <circle cx="760" cy="214" r="8"/>
+    <circle cx="928" cy="84" r="8"/>
+    <circle cx="900" cy="214" r="8"/>
+    <circle cx="950" cy="150" r="6"/>
+    <circle cx="820" cy="190" r="6"/>
+    <circle class="seed" cx="860" cy="140" r="9"/>
+  </g>
+  <g class="found">
+    <circle cx="860" cy="140" r="28" fill="#34c759"/>
+    <path d="M847 141 L856 150 L874 131" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <circle cx="150" cy="140" r="34" fill="#1a1715"/>
+  <text class="sans" x="150" y="146" font-size="17" font-weight="600" fill="#f5f2eb" text-anchor="middle">You</text>
+
+  <g class="think">
+    <g transform="translate(454 92) scale(0.5)">
+      <polygon points="0,20 40,0 190,0 150,20" fill="#e7bb82"/>
+      <polygon points="150,20 190,0 190,135 150,160" fill="#b88350"/>
+      <rect x="0" y="20" width="150" height="140" fill="#d9a56a"/>
+      <rect x="0" y="20" width="150" height="140" fill="url(#corrugation)"/>
+      <polygon points="0,160 150,160 162,188 -22,188" fill="#cf9860"/>
+      <polygon points="150,160 190,135 224,158 162,188" fill="#a8733f"/>
+      <circle class="eye" cx="48" cy="72" r="11" fill="#1d3a5c"/>
+      <circle class="eye" cx="104" cy="72" r="11" fill="#1d3a5c"/>
+      <path d="M44 110 Q76 134 108 110" fill="none" stroke="#1d3a5c" stroke-width="10" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <g class="sans" font-size="16" text-anchor="middle">
+    <g class="step1">
+      <text x="170" y="262" fill="#1a1715" font-weight="600">1. Tell Boardy who you need</text>
+    </g>
+    <g class="step2">
+      <text x="500" y="262" fill="#1a1715" font-weight="600">2. Boardy searches its network</text>
+    </g>
+    <g class="step3">
+      <text x="830" y="262" fill="#176f35" font-weight="600">3. Boardy makes the intro</text>
+    </g>
+  </g>
+</svg>
